@@ -1,0 +1,245 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color:#3A2400;
+}
+
+.raster {
+      width: 96%;
+      margin: 0 auto;
+}
+
+.nav {
+    overflow: hidden;
+    background-color: #4D4D4D;
+}
+
+.an {
+  float: right;
+  color: white;
+  text-align: center;
+  padding: 1.25% 1%;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.an:hover {
+  
+  background-color: white;
+  color: black;
+}
+
+.nav a.active {
+  
+}
+
+.logo {
+    width: 15%;
+}
+
+.bg {
+     width: 100%;
+}
+
+.textpos {
+    margin: -24% 0% 0% 14.5%;
+    color: #4D4D4D;
+    font-size: 40px;
+    font-weight: 750;
+}
+.textpos2 {
+    color: #4D4D4D;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+.center {
+    color: white;
+    font-size: 40px;
+    font-weight: 750;
+    margin: 20% 0% 10% 0%;
+    text-align: center;
+}
+
+.er1 {
+    margin: 1% 10% 0% 1%;
+    width: 23%;
+}
+
+.er2 {
+    margin: 1% 10% 0% 7%;
+    width: 23%;
+}
+
+.er3 {
+    margin: 1% 1% 0% 1%;
+    width: 23%;
+}
+
+.er4 {
+    margin: 5% 0% 0% 20%;
+    width: 23%;
+}
+
+.er5 {
+    margin: 5% 1% 0% 15%;
+    width: 23%;
+}
+
+h1 {
+    margin: 0% 0% 3% 0%;
+    color: white;
+    
+}
+
+h2 {
+    color: white;
+    font-size: 25px;
+}
+
+p {
+    width: 70%;
+    font-size: 18px;
+    color: white;
+}
+
+.umich {
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
+
+.pro {
+    width: 20%;
+    
+    float: right;
+    border: 3px solid #C77740;
+}
+
+.lspace {
+    margin: 0% 0% 10% 0%;
+}
+
+.link {
+    margin: -7% 100% 10% 0%;
+    border: 3px solid #C77740;
+    float: left;
+    background-color: #C77740;
+    color: white;
+    text-align: center;
+    padding: .5% 2%;
+    text-decoration: none;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s;
+    cursor: pointer;
+    border: 3px solid #C77740;
+}
+
+.link:hover {
+    background-color: white;
+    color: #C77740;
+    border: 3px solid #C77740;
+}
+
+.link:active {
+    transform: translateY(4px);
+}
+
+.center2 {
+    text-align: center;
+}
+
+.center3 {
+    text-align: center;
+    margin: 0% 0% 0% 15%;
+}
+
+.kontakt {
+    margin: 15% 0% -10% 0%;
+    text-align: center;
+}
+
+.kontaktbox {
+    margin: 1% 1% 1% 1%;
+    padding: .5% 5% .5% 1%;
+    background-color: #3A2400;
+    border: 3px solid #C77740;
+    
+}
+
+input, select, textarea{
+    color: white;
+    font-family: sans-serif;
+}
+
+.kontaktbut {
+    background-color: #C77740;
+    border: none;
+    color: white;
+    padding: 1% 2%;
+    cursor: pointer;
+    border: 3px solid #C77740;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition: all 0.3s;
+    margin: 0% 0% 5% 0%;
+}
+
+.kontaktbut:hover {
+    background-color: white;
+    color: #C77740;
+    border: 3px solid #C77740;
+}
+
+.kontaktbut:active {
+    transform: translateY(4px);
+}
+
+.social {
+    width:2.7%;
+    padding: .4%;
+    margin: 0% 1% 0% 30%;
+}
+
+.socialm {
+    width:2.7%;
+    padding: .4%;
+    margin: 0% 1% 0% 0%;
+}
+
+.social:hover {
+  
+  background-color: white;
+}
+
+.socialm:hover {
+  
+  background-color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: white; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #C77740; 
+}
